@@ -1,0 +1,3 @@
+book-flight-button: //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
+confirm-order-button: //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+order-booked: //android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]
