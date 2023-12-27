@@ -4,7 +4,7 @@ Variables       searchpage-locator.yaml
 
 *** Keywords ***
 Verify Search Page Visible
-    Wait Until Element Is Visible       ${search-flight-button}
+    Wait Until Element Is Visible    ${search-flight-button}
     
 Input Flight Number
     [Arguments]   ${flight-number}

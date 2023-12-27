@@ -4,7 +4,7 @@ Variables       bookingpage-locator.yaml
 
 *** Keywords ***
 Verify Booking Page Visible
-    Wait Until Element Is Visible       ${book-flight-button}
+    Wait Until Element Is Visible    ${book-flight-button}
 
 Click Book Button On Booking Page
     Click Element    ${book-flight-button}
